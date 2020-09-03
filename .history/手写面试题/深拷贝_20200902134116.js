@@ -2,10 +2,11 @@
  * @Author: FengZiShuo
  * @Date: 2020-09-02 09:38:59
  * @LastEditors: FengZiShuo
- * @LastEditTime: 2020-09-02 13:43:04
+ * @LastEditTime: 2020-09-02 13:41:15
  */
 function deepClone(obj) {
     function isObject(o) {
+        console.log((typeof o === 'object'),o)
         return ( typeof o === 'object' || typeof o === 'function'  ) && (o !== null)
     }
     if( !isObject(obj) ) {

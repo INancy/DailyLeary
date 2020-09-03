@@ -2,7 +2,7 @@
  * @Author: FengZiShuo
  * @Date: 2020-09-02 09:38:59
  * @LastEditors: FengZiShuo
- * @LastEditTime: 2020-09-02 13:43:04
+ * @LastEditTime: 2020-09-02 13:35:58
  */
 function deepClone(obj) {
     function isObject(o) {
@@ -28,6 +28,6 @@ let obj = {
         
     }
 }
-let newObj = deepClone(obj);
+let newObj = deepClone(null);
 //newObj.b.c = 1
 console.log(newObj, obj)
